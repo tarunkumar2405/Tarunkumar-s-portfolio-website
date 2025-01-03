@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarun kumar's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="./scripts.js"></script>
+    <link rel="icon" type="image/jpg" href="./imgs/tk.png">
+        <style>
+            html {
+                scroll-behavior: smooth;
+            }
+        
+            section[id] {
+                scroll-margin-top: 100px;
+            }
+        </style>
+      <script>
+        window.onload = function () {
+            if (!window.location.hash) {
+                window.location.hash = '#home';
+            }
+            // Scroll to the top of the page after the page loads
+            window.scrollTo(0, 0);
+        };
+    </script>
+</head>
+
+<body>
+    <header>
+        <a href="#home" class="logo-holder">
+            <div class="logo">TK</div>
+            <div class="logo-text">Tarun Kumar's Portfolio</div>
+        </a>
+        <nav>
+            <ul id="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="https://mail.google.com/mail/?view=cm&fs=1&to=tarunkumarhitech@gmail.com" class="button">Contact Me</a></li>
+            </ul>
+            <a href="#" class="mobile-toggle" onClick="toggleMobileMenu();">
+                <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                    width="24" height="24" fill="none" viewBox="0 0 24 24">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h10" />
+                </svg>
+            </a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero container">
+            <div class="hero-blue">
+                <div>
+                    <h1><small>Hi I'm</small>
+                        Tarunkumar
+                    </h1>
+                    <p>
+                        I’m a B.Tech IT student at Hindusthan Institute of Technology, exploring AI, ML, and web development. With recognition
+                        in symposiums and hands-on GitHub projects, I thrive on solving real-world problems and staying curious<span>I'm interested in AI topics which is why I also add things
+                            like ChatGPT into my projects these days.</span>
+                    </p>
+                    <div class="call-to-action">
+                        <a href="./Resume PDF.pdf" class="button black">
+                            View Resume
+                        </a>
+                        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=tarunkumarhitech@gmail.com" class="button white">
+                            Contact Me
+                        </a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/tarunkumar2405" target="_blank" rel="noopener noreferrer">
+                            <img src="./imgs/github.png" alt="GitHub" width="48" />
+                        </a>
+                        <a href="https://www.linkedin.com/in/tarunkumar2404" target="_blank" rel="noopener noreferrer">
+                            <img src="./imgs/linkedin.png" alt="LinkedIn" width="48" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-yellow">
+                <img src="./imgs/tarunkumar.png" alt="Tarunkumar" width="200%" />
+            </div>
+        </section>
+        <section class="logos container">
+            <div class="marquee">
+                <div class="track">
+                    <img src="./imgs/html.png" alt="HTML" width="128" />
+                    <img src="./imgs/css.png" alt="CSS" width="128" />
+                    <img src="./imgs/javascript.png" alt="JS" width="128" />
+                    <img src="./imgs/react.png" width="128" alt="React" />
+                    <img src="./imgs/gh.png" width="128" alt="github" />
+                    <img src="./imgs/vscode.png" width="128" alt="VS Code" />
+                    <img src="./imgs/python.png" width="128" alt="Python" />
+                    <img src="./imgs/AI.png" width="128" alt="Artifical Intelligence" />
+                    <img src="./imgs/ML.png" width="128" alt="Machine Learning" />
+                    <img src="./imgs/cn.png" width="128" alt="Computer Vision" />   <br>               
+                    <img src="./imgs/html.png" alt="HTML" width="128" />
+                    <img src="./imgs/css.png" alt="CSS" width="128" />
+                    <img src="./imgs/javascript.png" alt="JS" width="128" />
+                    <img src="./imgs/react.png" width="128" alt="React" />
+                    <img src="./imgs/gh.png" width="128" alt="github" />
+                    <img src="./imgs/vscode.png" width="128" alt="VS Code" />
+                    <img src="./imgs/python.png" width="128" alt="Python" />
+                    <img src="./imgs/AI.png" width="128" alt="Artifical Intelligence" />
+                    <img src="./imgs/ML.png" width="128" alt="Machine Learning" />
+                    <img src="./imgs/cn.png" width="128" alt="Computer Vision" />
+                </div>
+            </div>
+        </section>
+        <section id="skills" class="skills container">
+            <h2>
+                <small>About Me</small>
+                Skills
+            </h2>
+            <div class="holder-blue">
+                <div class="left-column">
+                    <h3>Web Development</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>React</li>
+                        <li>Node.js</li>
+                        <li>Tailwind CSS</li>
+                        <li>Next.js</li>
+                    </ul>
+                    <h3>AI & Machine Learning</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>TensorFlow</li>
+                        <li>PyTorch</li>
+                        <li>Generic Algorithms</li>
+                        <li>Neural Networks</li>
+                        <li>Deep Learning</li>
+                    </ul>
+                </div>
+                <div class="right-column">
+                    <h3>A bit about me</h3>
+                    <p>
+                        Hi, I'm Tarun Kumar, a B.Tech IT student at Hindusthan Institute of Technology. My passion lies in crafting
+                        innovative web solutions and delving into the realms of AI and Machine Learning. With a strong foundation in
+                        both front-end and back-end technologies, I strive to build applications that are not only functional but also
+                        user-centric.
+                    </p>
+                    <p>
+                        My journey has been marked by hands-on experience in developing dynamic web applications using modern frameworks
+                        like React and Next.js, complemented by design aesthetics with Tailwind CSS. On the AI front, I've engaged in
+                        projects that leverage TensorFlow and PyTorch, aiming to solve real-world problems through intelligent systems.
+                    </p>
+                    <p>
+                        Beyond coding, I am an avid learner, constantly exploring the latest trends in technology to enhance my skill
+                        set. I believe in the power of collaboration and am always eager to contribute to projects that make a
+                        meaningful impact.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="work-experience container">
+            <h2>
+                <small>Highlights</small>
+                Achievements
+            </h2>
+            <div class="jobs">
+                <article>
+                    <figure>
+                        <div>
+                            <img src="./imgs/poster design achvement.png" alt="Convergence 2K24" width="100%" />
+                            <figcaption>
+                                Convergence 2K24 - National Level Technical Symposium
+                            </figcaption>
+                        </div>
+                    </figure>
+                    <h3>Nexus 2K24 - Poster Making</h3>
+                    <div>March 15, 2024</div>
+                    <p>Secured third place in the Poster Making event at Nehru Institute of Technology, Coimbatore.</p>
+                </article>
+                <article>
+                    <figure>
+                        <div>
+                            <img src="./imgs/skcet.png" alt="Krishnecs 2K23 " width="100%" />
+                            <figcaption>
+                                Krishnecs 2K23 - National Level Technical Symposium
+                            </figcaption>
+                        </div>
+                    </figure>
+                    <h3>Spectra Craft Event</h3>
+                    <div>September 21, 2023</div>
+                    <p>Secured 1st place in the Spectra Craft event organized by Sri Krishna College of Engineering and
+                        Technology, Coimbatore.</p>
+                </article>
+                <article>
+                    <figure>
+                        <div>
+                            <img src="./imgs/sre.png" alt="Genesis 2K23" width="100%" />
+                            <figcaption>
+                                Genesis 2K23 - National Level Technical Symposium
+                            </figcaption>
+                        </div>
+                    </figure>
+                    <h3>Project Palooza - Project Expo</h3>
+                    <div>October 4, 2023</div>
+                    <p>Secured second place in the Project Palooza event at Sri Ramakrishna Engineering College, Coimbatore.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="projects" class="bento container">
+            <h2>
+                <small>
+                    Completed
+                </small>
+                 Projects
+            </h2>
+            <div class="bento-grid">
+                <a href="#" class="bento-item">
+                    <figure>
+                        <img src="./imgs/p1.png" alt="Vehicle Detection" width="100%" />
+                        <figcaption>
+                            An advanced solution utilizing computer vision to detect and track vehicles in real-time. Optimized
+                            for road safety and traffic management applications.
+                        </figcaption>
+                    </figure>
+                </a>
+                <a href="#" class="bento-item">
+                    <figure>
+                        <img src="./imgs/p2.png" alt="Motion Alert System" width="100%" />
+                        <figcaption>
+                            An intelligent system designed to detect motion and trigger alerts instantly. Perfect for enhancing
+                            surveillance and ensuring security in sensitive areas.
+                        </figcaption>
+                    </figure>
+                </a>
+                <a href="#" class="bento-item">
+                    <figure>
+                        <img src="./imgs/p3.png" alt="Pima Diabetes Prediction" width="100%" />
+                        <figcaption>
+                            A machine learning-based project that predicts the likelihood of diabetes using patient data.
+                            Empowering early diagnosis and preventive healthcare.
+                        </figcaption>
+                    </figure>
+                </a>
+                <a href="#" class="bento-item">
+                    <figure>
+                        <img src="./imgs/p4.png" alt="Object Detection System" width="100%" />
+                        <figcaption>
+                            A robust model capable of identifying and localizing objects in images and videos. Widely applicable
+                            in automation, security, and retail industries.
+                        </figcaption>
+                    </figure>
+                </a>
+                <a href="#" class="bento-item">
+                    <figure>
+                        <img src="./imgs/p5.png" alt="Image Classifier" width="100%" />
+                        <figcaption>
+                            A highly accurate classifier trained to distinguish and categorize images across various domains. A
+                            vital tool for AI-driven solutions.
+                        </figcaption>
+                    </figure>
+                </a>
+                <a href="#" class="bento-item">
+                    <figure>
+                        <img src="./imgs/p6.png" alt="Facial Detection and Recognition" width="100%" />
+                        <figcaption>
+                            A sophisticated system leveraging facial recognition to identify and authenticate individuals.
+                            Perfect for secure access control and identity management.
+                        </figcaption>
+                    </figure>
+                </a>
+            </div>
+        </section>
+
+        <section class="chatbot container">
+            <h2>
+                <small>
+                    Talk to me
+                </small>
+                Chatbot
+            </h2>
+            <div class="chatbot-blue">
+                <div class="chat-info">
+                    <h3>AI Chatbot</h3>
+                    <p>I've put together a chatbot that can answer questions about my skills, projects, and experiences. Feel free to interact with it to learn more about
+                    me.</p>
+                    <p>You can download my resume below. I'm actively seeking new opportunities. If you have a project that matches my skills,
+                    please get in touch!</p>
+                    <a href="./Resume PDF.pdf" class="button black">Download Resume</a>
+                </div>
+                <div class="chat-box">
+                    <div class="scroll-area">
+                        <ul id="chat-log">
+                            <li>
+                                <span class="avatar bot">AI</span>
+                                <div class="message">
+                                    Hi! I'm Tarun Kumar's Virtual Assistant, here to represent him. 
+                                    A digital version of Tarun, ready to chat and answer your
+                                    questions!
+                                </div>
+                            </li>
+                            <li>
+                                <span class="avatar user">User</span>
+                                <div class="message">
+                                    I have a question to ask you about this resume
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                <div class="chat-message">
+                    <button class="button black" id="chat-now" onclick="openChatbot()">Chat Now</button>
+                </div>
+                
+                <div id="chatbot-container"
+                    style="display:none; width:100%; height:100%; position:fixed; top:0; left:0; z-index:1000; background-color:white;">
+                    <button id="close-chatbot" onclick="closeChatbot()" class="close-btn">
+                        ✖ Close Chat
+                    </button>
+                    <iframe id="chatbot-frame"
+                        src="https://cdn.botpress.cloud/webchat/v2.2/shareable.html?configUrl=https://files.bpcontent.cloud/2025/01/01/16/20250101162957-SWF0IKCP.json"
+                        style="width:100%; height:100%;" frameborder="0"></iframe>
+                </div>
+
+
+
+                </div>
+            </div>
+        </section>
+    </main>
+<footer class="footer">
+    <div class="footer-content">
+        <div class="social-icons">
+            <a href="https://github.com/tarunkumar2405" target="_blank" title="GitHub">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/tarunkumar2404" target="_blank" title="LinkedIn">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="tel:+9894110671" target="_blank" title="Phone">
+                <i class="fas fa-phone"></i>
+            </a>
+            <a href="mailto:tarunkumarthitech@gmail.com" target="_blank" title="Email">
+                <i class="fas fa-envelope"></i>
+            </a>
+            <a href="https://www.google.com/maps/place/Coimbatore,+Tamil+Nadu,+India/" target="_blank" title="Location">
+                <i class="fas fa-map-marker-alt"></i>
+            </a>
+        </div>
+        <p class="footer-text">
+            © 2025 Tarun Kumar. All rights reserved.
+        </p>
+    </div>
+</footer>
+
+
+
+
+</body>
+</html>
